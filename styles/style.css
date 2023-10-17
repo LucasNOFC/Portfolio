@@ -365,6 +365,19 @@ footer .column > a:hover{
 }
 
 @media (width < 600px){
+
+    .container > .content > h1 {
+        font-size:35px;
+    } 
+
+    .container > .content > h4 {
+        font-size:15px;
+    } 
+
+    .container > .content > p {
+        font-size:12px;
+    } 
+
     header .image::before{
         display: none;
     }
@@ -380,4 +393,6 @@ footer .column > a:hover{
     footer{
         grid-template-columns: 1fr 150px;
     }
+
+
 }
