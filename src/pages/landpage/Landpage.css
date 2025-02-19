@@ -1,0 +1,63 @@
+.landpage-container{
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.content-container{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    margin-left: 35px;
+    gap:15px;
+}
+
+.landpage-main{
+    display: flex;
+    align-items: start;
+    flex-flow: column;
+}
+
+.landpage-information{
+    display: flex;
+    gap:15px;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.landpage-information > .landpage-link-btn{
+    color:rgb(0,102,255);
+    border: 1px solid rgb(0,102,255);
+    padding: 15px;
+    text-decoration: none;
+    transition: .5s all;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.landpage-information > .landpage-link-btn:hover{
+    color:white;
+    background-color: rgb(0,102,255);
+}
+
+.phrase{
+    color:rgb(0, 102, 255);
+}
+
+.name-tittle{
+    font-size:52px;
+}
+
+.phrase-main{
+    font-size: 18px;
+    color:rgb(65, 65, 65);
+}

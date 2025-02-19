@@ -1,0 +1,19 @@
+.list-link{
+    width: 100px;
+    padding: 5px;
+}
+
+.link-standard-decoration{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 2px;
+    transition: .6s all;
+    font-weight: 600;
+}
+
+.link-standard-decoration:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.486);
+}

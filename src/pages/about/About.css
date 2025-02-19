@@ -1,0 +1,88 @@
+.apresentation-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap:15px;
+}
+
+.main-container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.apresentation-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap:5px;
+}
+
+.apresentation-text > .apresentation-tittle{
+    color: rgb(0,102,255);
+    font-weight: 600;
+    font-size:32px;
+}
+
+.apresentation-text > .apresentation-phrase{
+    color: rgb(33, 122, 255);
+    font-size:20px;
+}
+
+.apresentation-desc{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    text-align: justify;
+    gap:2px;
+    width: 500px;
+}
+
+.apresentation-desc > .apresentation-desc-complementation {
+    color:rgb(94, 94, 94);
+    font-size:18px;
+}
+
+.download-curriculum{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap:15px;
+}
+
+.about-edit{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    align-items: start;
+    flex-flow: column nowrap;
+    height: 200px;
+    padding: 10px;
+    gap:5px;
+    margin-left: 50px;
+}
+
+.container-information{
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    justify-content: start;
+}
+
+.contact-tittle{
+    color:rgb(0,102,255);
+}
+
+.about-edit{
+    display: flex;
+    margin-left:25px;
+    height: 100vh;
+}
