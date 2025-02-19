@@ -10,7 +10,7 @@ const Landpage = () => {
       <div className="content-container">
         <div className="landpage-main">
           <h2 className="phrase">Olá, como vai? Me chamo</h2>
-          <h1 className="name-tittle">Lucas Nobre Fernandes</h1>
+          <h1 className="name-tittle">Lucas Nobre</h1>
           <p className="phrase-main">Desenvolvedor Full-Stack</p>
         </div>
         <div className="landpage-information">
