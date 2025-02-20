@@ -9,21 +9,9 @@
         "image5": "/images/projects/Ecommerce/Registro.PNG"
       },
       "Tittle": "Ecommerce Nobre",
-      "Desc": "Ecommerce de livros e mangás que estou atualmente desenvolvendo, utilizando React, Mysql, Javascript, NodeJS e outras ferramentas",
-      "hasAPI": true
-    }
-  },
-  {
-    "TesteDoido": {
-      "Images": {
-        "image1": "/images/projects/Ecommerce/Landpage.PNG",
-        "image2": "/images/projects/Ecommerce/Login.PNG",
-        "image3": "/images/projects/Ecommerce/Loja.PNG",
-        "image4": "/images/projects/Ecommerce/Produto.PNG",
-        "image5": "/images/projects/Ecommerce/Registro.PNG"
-      },
-      "Tittle": "Fake natty",
-      "Desc": "Ecommerce de livros e mangás que estou atualmente desenvolvendo, utilizando React, Mysql, Javascript, NodeJS e outras ferramentas",
+      "Stacks":"NodeJS, JavaScript, React, Tailwind",
+      "Desc": "Ecommerce de livros e mangás, estou utilizando mysql para o banco de dados, Express para o servidor no NodeJS, Bcrypt para hash e verificação de senhas, JWT para autenticar usuários,",
+      "GitRepo":"https://github.com/LucasNOFC/Livraria-Nobre",
       "hasAPI": true
     }
   }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./BannerContainer.css";
 import BannerCarrousel from "../BannerCarrousel/BannerCarrousel";
+import { Link } from "react-router-dom";
 
 const BannerContainer = ({ item }) => {
   const [project, setProject] = useState(null);
@@ -19,10 +20,10 @@ const BannerContainer = ({ item }) => {
       <div className="banner-info">
         <div className="banner-texts">
           <h1 className="project-tittle">{project.Tittle}</h1>
-          <p className="project-desc">{project.Desc}</p>
+          <p className="project-desc">{project.Desc}. Veja o meu projeto <Link to={project.GitRepo} className="repo-style">aqui</Link></p>
         </div>
       </div>
-      <p>{project.hasAPI ? "Possui Api" : ""}</p>
+      <p className="has-api">{project.hasAPI ? "Contém API" : ""}</p>
     </div>
   );
 };

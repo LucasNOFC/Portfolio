@@ -2,9 +2,9 @@
     background-color: rgb(0, 102, 255);
     box-shadow: 0 0 5px rgb(36, 124, 255);
     border-radius: 15px;
-    width: 200px;
+    width: 120px;
+    height: 130px;
     padding: 5px;
-    height: 180px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -22,12 +22,13 @@
 
 
 .image-card-container{
-    width: 80px;
+    width: 60px;
 }
 
-.card-tittle, .card-desc{
+.card-tittle{
     color:white;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.247);
+    font-size:20px;
 }
 
 @media screen and (max-width: 920px) {

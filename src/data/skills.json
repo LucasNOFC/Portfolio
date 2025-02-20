@@ -1,47 +1,38 @@
 [
   {
     "image": "/images/skills/css5.png",
-    "tittle": "CSS 5",
-    "desc": " Expertise: 4 / 5"
+    "tittle": "CSS 5"
   },
   {
     "image": "/images/skills/html5.png",
-    "tittle": "HTLM 5",
-    "desc": " Expertise: 5 / 5"
+    "tittle": "HTLM 5"
   },
   {
     "image": "/images/skills/js.png",
-    "tittle": "Javascript",
-    "desc": " Expertise: 4 / 5"
+    "tittle": "Javascript"
   },
   {
     "image": "/images/skills/ts.png",
-    "tittle": "Typerscript",
-    "desc": " Nota: 3 / 5"
+    "tittle": "Typerscript"
   },
   {
     "image": "/images/skills/mysql.png",
-    "tittle": "MySQL",
-    "desc": "     Expertise: 3 / 5"
+    "tittle": "MySQL"
   },
   {
     "image": "/images/skills/node.png",
-    "tittle": "NodeJS",
-    "desc": "      Expertise: 4 / 5"
+    "tittle": "NodeJS"
   },
   {
     "image": "/images/skills/react.png",
-    "tittle": "React",
-    "desc": "       Expertise: 4 / 5"
+    "tittle": "React"
   },
   {
     "image": "/images/skills/mongodb.png",
-    "tittle": "MongoDB",
-    "desc": "       Expertise: 4 / 5"
+    "tittle": "MongoDB"
   },
   {
     "image": "/images/skills/git.png",
-    "tittle": "Git",
-    "desc": "       Expertise: 4 / 5"
+    "tittle": "Git"
   }
 ]

@@ -1,9 +1,30 @@
 .main-skills-container{
     width: 100vw;
     height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;   
+}
+
+.skills-desc-content{
+    width: 100%;
+    min-height: 100vh;
+    scroll-snap-align: start;
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
+    gap:15px;
+}
+
+.phrase-skills-content{
+    text-align: center;
+    color:rgb(87, 87, 87)
+}
+
+.courses-container{
+    display: flex;
+    flex-flow: column nowrap;
+    gap:15px;
 }
 
 .skills-container{
@@ -11,8 +32,6 @@
     grid-template-columns: auto auto auto;
     align-items: stretch;
     justify-content: center;
-    width: 700px;
-    height: 600px;
     gap:20px;
 }
 

@@ -1,0 +1,34 @@
+.courses-card-container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius:15px;
+    gap:10px;
+    padding: 15px;
+    width: 800px;
+}
+
+.course-image{
+    width: 180px;
+}
+
+.course-tittle{
+    font-size: 26px;
+}
+
+.course-location{
+    font-size:18px;
+}
+
+.course-date{
+    color:rgb(48, 48, 48);
+    font-weight: 800;
+}
+
+.course-desc{
+    text-align: justify;
+    color:rgb(71, 71, 71);
+}
+
