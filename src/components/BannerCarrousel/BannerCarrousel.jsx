@@ -15,7 +15,7 @@ const BannerCarrousel = ({ images }) => {
 
   return (
     <div className="banner-carrousel-image">
-      <img src={images[currentIndex]} alt="Imagem" className="image-carrousel" />
+      <img src={`${import.meta.env.BASE_URL}${images[currentIndex]}`} alt="Imagem" className="image-carrousel" />
     </div>
   );
 };

@@ -5,7 +5,7 @@ const CardItem = ({ image, tittle, desc }) => {
   return (
     <div className="card-container">
       <div>
-        <img src={image} alt="logo stack" className="image-card-container" />
+        <img src={`${import.meta.env.BASE_URL}${image}`} alt="logo stack" className="image-card-container" />
       </div>
       <div>
         <div>
