@@ -4,7 +4,7 @@ import "./CourseCard.css";
 const CoursesCard = ({ Tittle, Location, Date, Desc, Photo }) => {
   return (
     <div className="courses-card-container">
-      <img src={Photo} alt="Education photo" className="course-image" />
+      <img src={`${import.meta.env.BASE_URL} ${Photo}`} alt="Education photo" className="course-image" />
       <div className="course-info-container">
         <h1 className="course-tittle">{Tittle}</h1>
         <h2 className="course-location">{Location}</h2>
