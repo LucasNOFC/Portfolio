@@ -6,7 +6,9 @@
     padding: 15px;
     gap:30px;
     justify-content: center;
-    max-width: 75%;
+    max-width: 1000px;
+    max-height: 250px;
+    background-color: red;
 }
 
 .banner-container:hover{
@@ -28,9 +30,15 @@
     gap:5px;
 }
 
+.project-title{
+    font-size:24px;
+}
+
 .project-desc{
     text-align: justify;
-    color:rgb(73, 73, 73)
+    color:rgb(73, 73, 73);
+    max-width: 450px;
+    font-size: 17px;
 }
 
 .repo-style{
@@ -41,4 +49,67 @@
 
 .has-api{
     color:rgb(0, 119, 255);
+    text-align: center;
+    width: 150px;
 }
+
+@media screen and (max-width:1154px) {
+    .project-desc{
+        max-width: 350px;
+    }
+
+    .project-title{
+        font-size:24px;
+    }
+
+    .project-desc{
+        font-size:14px;
+    }
+
+}
+
+@media screen and (max-width: 959px) {
+    .banner-container{
+        max-width: 700px;
+    }
+
+    .project-title{
+        font-size:2.2vw;
+    }
+
+    .project-desc{
+        font-size:13px;
+    }
+
+    .has-api{
+        font-size:12px;
+        padding: 12px;
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 672px) {
+
+
+
+    .banner-container{
+        flex-flow: column nowrap;
+        max-width: 250px;
+        max-height: 550px;
+    }
+
+    .project-title{
+        font-size:22px;
+        text-align: center;
+    }
+
+    .project-desc{
+        font-size: 14px;
+    }
+
+    .has-api{
+        font-size:16px;
+    }
+}
+
+

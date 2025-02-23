@@ -19,7 +19,7 @@ const BannerContainer = ({ item }) => {
       <BannerCarrousel images={Object.values(project.Images)} />
       <div className="banner-info">
         <div className="banner-texts">
-          <h1 className="project-tittle">{project.Tittle}</h1>
+          <h1 className="project-title">{project.Tittle}</h1>
           <p className="project-desc">{project.Desc}. Veja o meu projeto <Link to={project.GitRepo} className="repo-style">aqui</Link></p>
         </div>
       </div>

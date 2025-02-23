@@ -4,6 +4,11 @@
     text-align: center;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
 }
 
 .project-information{
@@ -25,4 +30,12 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 672px) {
+    .project-information{
+        display: none;
+    }
+
 }

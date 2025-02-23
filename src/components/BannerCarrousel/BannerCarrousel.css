@@ -13,3 +13,19 @@
     object-fit: cover;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 959px) {
+    .image-carrousel{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media screen and (max-width: 672px) {
+    .image-carrousel{
+        width: 200px;
+        height: 200px;
+    }
+
+}
