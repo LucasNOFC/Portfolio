@@ -8,7 +8,10 @@
 
 .main-container{
     display: flex;
+    width: 100%;
     flex-flow: row nowrap;
+    gap:30px;
+    justify-content: center;
 }
 
 .apresentation-text{
@@ -22,12 +25,10 @@
 .apresentation-text > .apresentation-tittle{
     color: rgb(0,102,255);
     font-weight: 600;
-    font-size:32px;
 }
 
 .apresentation-text > .apresentation-phrase{
     color: rgb(33, 122, 255);
-    font-size:20px;
 }
 
 .apresentation-desc{
@@ -42,7 +43,6 @@
 
 .apresentation-desc > .apresentation-desc-complementation {
     color:rgb(94, 94, 94);
-    font-size:18px;
 }
 
 .download-curriculum{
@@ -64,10 +64,7 @@
     display: flex;
     align-items: start;
     flex-flow: column nowrap;
-    height: 200px;
-    padding: 10px;
     gap:5px;
-    margin-left: 50px;
 }
 
 .container-information{
@@ -85,4 +82,76 @@
     display: flex;
     margin-left:25px;
     height: 100vh;
+}
+
+@media screen and (max-width: 930px) {
+    .apresentation-container{
+        width: 400px;
+        text-align: start;
+    }
+
+    .apresentation-desc{
+        width: 350px;
+    }
+
+    .apresentation-desc-complementation{
+        font-size:14px;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .main-container{
+        flex-flow: column-reverse;
+    }
+
+    .apresentation-desc{
+        width: 90%;
+    }
+
+    .apresentation-container{
+        width: 100%;
+    }
+
+    .apresentation-desc-complementation{
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .apresentation-phrase{
+        font-size:14px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .apresentation-phrase{
+        font-size:12px;
+    }
+
+    .download-curriculum{
+        font-size:12px;
+        gap:5px;
+    }
+
+    .apresentation-desc-complementation{
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .apresentation-phrase{
+        font-size:11px;
+    }
+
+    .contact-tittle {
+        font-size:14px;
+    }
+
+    .contact-phrase{
+        font-size:16px;
+    }
+
+    .container-information{
+        font-size:12px;
+    }
 }

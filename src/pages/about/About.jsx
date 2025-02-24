@@ -27,7 +27,7 @@ const About = () => {
             </p>
           </div>
           <p className="download-curriculum">
-            Baixe o meu currículo aqui <UploadFileIcon />
+            Baixe o meu currículo aqui <UploadFileIcon/>
           </p>
         </div>
         <div className="contact-container">
