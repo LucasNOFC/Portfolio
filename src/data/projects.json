@@ -9,9 +9,9 @@
         "image5": "/images/projects/Ecommerce/Registro.PNG"
       },
       "Tittle": "Ecommerce Nobre",
-      "Stacks":"NodeJS, JavaScript, React, Tailwind",
+      "Stacks": "NodeJS, JavaScript, React, Tailwind",
       "Desc": "Ecommerce de livros e mangás, estou utilizando mysql para o banco de dados, Express para o servidor no NodeJS, Bcrypt para hash e verificação de senhas, JWT para autenticar usuários,",
-      "GitRepo":"https://github.com/LucasNOFC/Livraria-Nobre",
+      "GitRepo": "https://github.com/LucasNOFC/Livraria-Nobre",
       "hasAPI": true
     }
   }

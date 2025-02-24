@@ -9,11 +9,11 @@ const Skills = () => {
   return (
     <div className="main-skills-container">
       <div className="skills-desc-content">
-        <div className="phrase-skills-content">
+        <div className="phrase-stacks-content">
           <h1 style={{ color: "black" }}>Skills e ferramentas</h1>
           <p>Ferramentas que utilizo e possuo experiência</p>
         </div>
-        <div className="skills-container">
+        <div className="stacks-container">
           {stack.map((value, index) => {
             return (
               <CardItem image={value.image} tittle={value.tittle} key={index} />
@@ -21,8 +21,8 @@ const Skills = () => {
           })}
         </div>
       </div>
-      <div className="skills-desc-content">
-        <div className="phrase-skills-content">
+      <div className="courses-desc-content">
+        <div className="phrase-courses-content">
           <h1 style={{ color: "black" }}>Formação</h1>
         </div>
         <div className="courses-container">

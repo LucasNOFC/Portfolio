@@ -12,8 +12,8 @@
     display: flex;
     flex-flow: column;
     align-items: start;
-    margin-left: 35px;
     gap:15px;
+    margin-left: 25px;
 }
 
 .landpage-main{
@@ -60,4 +60,33 @@
 .phrase-main{
     font-size: 18px;
     color:rgb(65, 65, 65);
+}
+
+@media screen and (max-width: 620px) {
+    .content-container{
+        margin-left: 0;
+    }
+
+    .landpage-container{
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .landpage-information{
+        flex-flow: column nowrap;
+        align-items: baseline;
+    };
+}
+
+@media screen and (max-width:460px) {
+    .phrase{
+        font-size:20px;
+    }
+
+    .name-tittle{
+        font-size:32px;
+    }
+
+
 }

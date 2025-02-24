@@ -1,17 +1,13 @@
 .main-skills-container{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;   
 }
 
-.skills-desc-content{
+.skills-desc-content, .courses-desc-content{
     width: 100%;
     min-height: 100vh;
-    scroll-snap-align: start;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -19,7 +15,12 @@
     gap:15px;
 }
 
-.phrase-skills-content{
+.courses-desc-content{
+    padding-top:3rem;
+    margin-bottom: 20px;
+}
+
+.phrase-stacks-content{
     text-align: center;
     color:rgb(87, 87, 87)
 }
@@ -27,29 +28,49 @@
 .courses-container{
     display: flex;
     flex-flow: column nowrap;
-    gap:15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:20px;
 }
 
-.skills-container{
+.stacks-container{
     display: inline-grid;
     grid-template-columns: auto auto auto;
     align-items: stretch;
     justify-content: center;
     gap:20px;
+    height: 100%;
+    width: 100%;
 }
 
-@media screen and (max-width: 920px) {
-    .skills-container{
-        width: 600px;
-        height: 500px;
+
+@media screen and (max-width: 780px) {
+    .stacks-container{
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap:10px;
     }
 }
 
-@media screen and (max-width: 780px) {
-    .skills-container{
-        grid-template-columns: auto auto auto auto;
-        gap:10px;
-        width:500px;
-        height: 400px;
+
+@media screen and (max-width: 560px) {
+    .stacks-container{
+        grid-template-columns: auto auto auto;
+    }
+
+    .phrase-stacks-content > h1 {
+        font-size:22px;
+    }
+
+    .phrase-stacks-content > p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .stacks-container{
+        grid-template-columns: auto auto;
     }
 }

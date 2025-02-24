@@ -15,12 +15,15 @@ const About = () => {
           </div>
           <div className="apresentation-desc">
             <p className="apresentation-desc-complementation">
-              Formado em análise e desenvolvimentos de sistemas pela Faculdade
-              CDL, busco por uma posição como desenvolvedor júnior fullstack.
-              Utilizo React, Typerscript, MySQL, NodeJS como minhas stacks
-              principais, tenho projetos feitos em python, c#. Desde pequeno
-              fascinado por pensar fora da caixa, tecnologia e computadores, em
-              especial na área de criação de scripts.
+              Formado em Análise e Desenvolvimento de Sistemas pela Faculdade
+              CDL, busco uma oportunidade como Desenvolvedor Júnior Full Stack.
+              Minhas principais stacks incluem React, TypeScript, MySQL e
+              Node.js, além de experiência em Python e C#. Tenho um forte
+              interesse por tecnologia e programação desde cedo, sempre motivado
+              pela curiosidade e pela busca por soluções inovadoras. Destaco
+              minha habilidade em criação de scripts e desenvolvimento de
+              projetos práticos, unindo criatividade e eficiência para resolver
+              desafios de forma estratégica.
             </p>
           </div>
           <p className="download-curriculum">
